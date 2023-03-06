@@ -50,6 +50,8 @@ Test your Jekyll site by running the command `jekyll serve`. This will start a l
 
 ## Step 12: Commit Your Changes
 
+Commit your changes to GitHub. Open your terminal or command prompt and navigate to your website's directory. Run the following commands to commit your changes:
+
 
 ## Step 13: Enable GitHub Pages
 
