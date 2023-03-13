@@ -21,14 +21,14 @@ Btw this whole page was created in **Markdown** 😉
 2. On your Github dashboard, **click on the "+" button** in the top right corner and select **"New repository"**.  
 <br>
   
-    ![githubpic1](githubpic1.png)
+    ![create-repository-button](create-repository-button.webp)
 
 <br>
 
 3. Give your repository a name like **"username.github.io"**, but replace **"username"** with your actual **Github username**. Make sure to select the option to make the repository public.  
 <br>
 
-    ![githubpic2](githubpic2.png)
+    ![create-repository-name-pages](create-repository-name-pages.webp)
 
 <br>
 
