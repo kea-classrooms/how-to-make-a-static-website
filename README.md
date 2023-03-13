@@ -20,17 +20,12 @@ Btw this whole page was created in **Markdown** 😉
 
 2. On your Github dashboard, **click on the "+" button** in the top right corner and select **"New repository"**.  
 <br>
-  
-  
     ![repo-create](repo-create.webp)
-
 <br>
 
 3. Give your repository a name like **"username.github.io"**, but replace **"username"** with your actual **Github username**. Make sure to select the option to make the repository public.  
 <br>
-
     ![create-repository-name-pages](create-repository-name-pages.webp)
-
 <br>
 
 4. Now, open a blank text file and write the content you want to include on your website. Save the file as "index.md" and make sure it is saved in github.
