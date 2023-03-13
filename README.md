@@ -30,7 +30,7 @@ Btw this whole page was created in **Markdown** 😉
     ![create-repository-name-pages](create-repository-name-pages.webp)
 
 
-4.  Now, open a blank text file and write the content you want to include on your website. Save the file as "index.md" and make sure it is saved in github.
+4. Now, open a blank text file and write the content you want to include on your website. Save the file as "index.md" and make sure it is saved in github.
 
 
   ![create-new-file](create-new-file.png)  
