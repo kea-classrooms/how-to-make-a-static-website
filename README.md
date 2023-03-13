@@ -38,13 +38,11 @@ Btw this whole page was created in **Markdown** 😉
   ![create-new-file](create-new-file.png)
   ![index](index.png)
 
-5. Go back to your Github repository page and click on the "Upload files" button. Then, drag and drop your "index.html" file into the file upload area.
+5. Once your file is uptodate, scroll down to the bottom of the page and click on the "Commit changes" button.
 
-6. Once your file is uploaded, scroll down to the bottom of the page and click on the "Commit changes" button.
+6. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.html" file.
 
-7. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.html" file.
-
-8. To make changes to your website, just edit the "index.html" file on your computer and repeat steps 5-7 to upload the new version of the file to Github.  
+7. To make changes to your website, just edit the "index.html" file on your computer and repeat steps 5-7 to upload the new version of the file to Github.  
 
 <br>
 
