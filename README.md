@@ -32,26 +32,32 @@ Btw this whole page was created in **Markdown** 😉
 
 4. Now, open a blank text file and write the content you want to include on your website. Save the file as "index.md" and make sure it is saved in github.
 
+
   ![create-new-file](create-new-file.png)
   ![index](index.png)
 
 5. Once your file is uptodate, scroll down to the bottom of the page and click on the "Commit changes" button.
 
+
   ![commit](commit.png)
 
 6. Now lets make the site go live. Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the dropdown menu, then click Settings.
+
 
   ![repo-actions-settings](repo-actions-settings.webp)
 
 7. In the "Code and automation" section of the sidebar, click Pages.
 
+
   ![pages](pages.png)
   
 8. Add the branch
 
+
   ![branch](branch.png)
 
 9. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.md" file.
+
 
   ![github-pages](github-pages.png)
 
