@@ -21,6 +21,9 @@ Btw this whole page was created in **Markdown** 😉
 2. On your Github dashboard, **click on the "+" button** in the top right corner and select **"New repository"**.  
 <br>
   
+  
+    ![repo-create](repo-create.webp)
+    
     ![create-repository-button](create-repository-button.webp)
 
 <br>
