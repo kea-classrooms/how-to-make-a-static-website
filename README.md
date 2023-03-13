@@ -44,7 +44,7 @@ Btw this whole page was created in **Markdown** 😉
 
 6. Now lets make the site go live. Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the dropdown menu, then click Settings.
 
-  ![repo-actions-settings](repo-actions-settings.wepb)
+  ![repo-actions-settings](repo-actions-settings.webp)
 
 7. In the "Code and automation" section of the sidebar, click Pages.
 
