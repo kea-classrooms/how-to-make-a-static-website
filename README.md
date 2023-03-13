@@ -54,11 +54,11 @@ Btw this whole page was created in **Markdown** 😉
 
   ![branch](branch.png)
 
-6. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.md" file.
+9. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.md" file.
 
   ![github-pages](github-pages.png)
 
-7. To make changes to your website, just edit the "index.md" file in github and remember to commit the change wait a few moments and if everything was done write your site sould be uptodate.
+10. To make changes to your website, just edit the "index.md" file in github and remember to commit the change wait a few moments and if everything was done write your site sould be uptodate.
 
 
 
