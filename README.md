@@ -23,8 +23,6 @@ Btw this whole page was created in **Markdown** 😉
   
   
     ![repo-create](repo-create.webp)
-    
-    ![create-repository-button](create-repository-button.webp)
 
 <br>
 
@@ -35,15 +33,18 @@ Btw this whole page was created in **Markdown** 😉
 
 <br>
 
-4. Now, open a blank text file on your computer and write the content you want to include on your website. Save the file as "index.html" and make sure it is saved in a folder on your computer.
+4. Now, open a blank text file and write the content you want to include on your website. Save the file as "index.md" and make sure it is saved in github.
 
-1. Go back to your Github repository page and click on the "Upload files" button. Then, drag and drop your "index.html" file into the file upload area.
+  ![create-new-file](create-new-file.png)
+  ![index](index.png)
 
-1. Once your file is uploaded, scroll down to the bottom of the page and click on the "Commit changes" button.
+5. Go back to your Github repository page and click on the "Upload files" button. Then, drag and drop your "index.html" file into the file upload area.
 
-1. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.html" file.
+6. Once your file is uploaded, scroll down to the bottom of the page and click on the "Commit changes" button.
 
-1. To make changes to your website, just edit the "index.html" file on your computer and repeat steps 5-7 to upload the new version of the file to Github.  
+7. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.html" file.
+
+8. To make changes to your website, just edit the "index.html" file on your computer and repeat steps 5-7 to upload the new version of the file to Github.  
 
 <br>
 
