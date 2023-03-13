@@ -33,11 +33,11 @@ Btw this whole page was created in **Markdown** 😉
 4. Now, open a blank text file and write the content you want to include on your website. Save the file as "index.md" and make sure it is saved in github.
 
 
-  ![create-new-file](create-new-file.png)
+  ![create-new-file](create-new-file.png)  
   
-  ![index](index.png)
-
-
+  
+  ![index](index.png)  
+  
 5. Once your file is uptodate, scroll down to the bottom of the page and click on the "Commit changes" button.
 
 
