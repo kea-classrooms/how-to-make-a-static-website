@@ -1,63 +1,136 @@
-# How to Create a Static Website with GitHub Pages and Jekyll
+# Your own static website with Github Pages!
+<br>
 
-This step-by-step guide will show you how to create a static website using GitHub Pages and Jekyll. By the end of this tutorial, you will have a fully functioning website that you can customize and make your own.
+## Introduction  
 
-## Step 1: Create a GitHub Account
+Welcome to the wonderful world of github and static websites! If you're new to the game, don't you worry - We'll be your guide through this exciting journey. We'll be exploring the power of **Markdown, GitHub, GitHub Pages**, and the static website generator **Jekyll**, to create an easy and beautiful website.  
 
-If you don't already have a GitHub account, go to the GitHub homepage and click on the "Sign up" button. Follow the instructions to create your account.
+So, buckle up and get ready to have some fun. By the end of this adventure, you'll be well equipped at using these tools to create your very own static website. Let's get started!  
 
-## Step 2: Create a New Repository
+Btw this whole page was created in **Markdown** 😉
 
-Create a new repository for your website. Name your repository `username.github.io`, where `username` is your GitHub username. Make sure the repository is set to "Public".
+<br>
 
-## Step 3: Download and Install Git
+---  
+<br>
 
-Download and install Git on your computer. You can download Git for free from the [Git website](https://git-scm.com/downloads).
+## The **'easy'** way!  
 
-## Step 4: Download and Install a Code Editor
+1. Go to the **[Github website][github]**, create an account and login. But of course you already have an account, riiiight?!
 
-Download and install a code editor on your computer. There are many code editors to choose from, but some popular ones include Visual Studio Code, Atom, and Sublime Text.
+2. On your Github dashboard, **click on the "+" button** in the top right corner and select **"New repository"**.  
+<br>
+  
+    ![githubpic1](githubpic1.png)
 
-## Step 5: Clone Your Repository
+<br>
 
-Clone your new repository to your computer by running the following command in your terminal:
+3. Give your repository a name like **"username.github.io"**, but replace **"username"** with your actual **Github username**. Make sure to select the option to make the repository public.  
+<br>
+
+    ![githubpic2](githubpic2.png)
+
+<br>
+
+4. Now, open a blank text file on your computer and write the content you want to include on your website. Save the file as "index.html" and make sure it is saved in a folder on your computer.
+
+1. Go back to your Github repository page and click on the "Upload files" button. Then, drag and drop your "index.html" file into the file upload area.
+
+1. Once your file is uploaded, scroll down to the bottom of the page and click on the "Commit changes" button.
+
+1. Your website should now be live at "username.github.io". If you go to that website in your web browser, you should see the content you wrote in the "index.html" file.
+
+1. To make changes to your website, just edit the "index.html" file on your computer and repeat steps 5-7 to upload the new version of the file to Github.  
+
+<br>
+
+---
+<br>
+
+## The **'imma boss'** way!  
+
+1. Create a new repository on Github with a name like "username.github.io", where "username" is your Github username.  
+
+2. Open a terminal or command prompt and navigate to the folder where you want to store your website files.  
+
+3. Create a new folder for your website and navigate into it.  
+
+4. Create an index.html file with your website content using your preferred text editor.  
+
+5. Initialize a Git repository in the root folder of your website by running the command git init.  
+
+6. Add your website files to the repository by running the command git add . (the "." indicates that you want to add all the files in the current directory).  
+
+7. Commit your changes by running the command git commit -m "Initial commit".  
+
+8. Push your changes to Github by running the command git push origin main.
+Visit your website at "username.github.io" in your web browser to confirm that it is live.  
+<br>
+
+---
+<br>
+
+## How to add a custom theme
+
+<br>
+
+---
+<br>
+
+## Markdown and helpfull links
+
+### Markdown  
+So what is **Markdown** really? Well this is a technology assigenment, so lets ask [chatGBT][chat] for a definition 😁 
+
+> Markdown is a lightweight markup language used for formatting plain text documents with headings, lists, links, and more. It's easy to read and write syntax, making it useful for creating documents and web content, that can be >converted to other formats like HTML or PDF.  
+> -ChatGBT  
 
 
-## Step 6: Install Jekyll
+As mentioned in the introduction, this site was created with **Markdown**. We'll not be going through basic syntax on this site. There is not need because of the abundence of free learning material on the web. But we here are some nice free material! 
 
-Install Jekyll on your computer by following the instructions on the [official Jekyll website](https://jekyllrb.com/docs/installation/).
+<br>
 
-## Step 7: Create a New Jekyll Site
+- [Basic Markdown syntax][markdown-syntax] - MarkdownGuide
+- [Basic wrtting and formatting][github-markdown] - Github
+- [Markdown Crash Course][markdownCC] - Youtube
 
-Create a new Jekyll site by running the following command in your terminal:
+<br>
 
+### Editors and links
 
-## Step 8: Customize Your Jekyll Site
+There are different ways to create and edit your markdown-file and here are a few of them.
 
-Customize your Jekyll site by editing the configuration file `_config.yml`. This file contains all the settings for your site, such as the title, description, and theme. Open `_config.yml` in your code editor and make any changes you want.
+- Create a file on your laptop and end it with **'md'**. Like this **randomtextfile.md** and go to your Github repository click on **Add file** -> **Upload file**.
 
-## Step 9: Create New Pages
+- Use **VSCode** directly from your laptop, create a textfile.md and edit it directly from the code-editor. While you're at it, install an extension [Auto-Open Markdown Preview][auto-open]. This will help give you a live preview while you're typing away.  
 
-Create new pages for your website by adding Markdown files to the `_posts` folder. Each Markdown file represents a different page on your site. You can use Markdown to format your text and add images, links, and other content to your pages.
+- Create a file in your **Github repository** by clicking **Add file** -> **Create new file** and use **VSCode** directly from github by creating a **codespace**.  
 
-## Step 10: Add a Theme
-
-Add a theme to your Jekyll site. You can browse a list of Jekyll themes on the [official Jekyll website](https://jekyllrb.com/docs/themes/). Once you find a theme you like, follow the instructions on the theme's website to add it to your site.
-
-## Step 11: Test Your Jekyll Site
-
-Test your Jekyll site by running the command `jekyll serve`. This will start a local server that allows you to view your site in your web browser. Open your web browser and go to `http://localhost:4000` to see your site.
-
-## Step 12: Commit Your Changes
-
-Commit your changes to GitHub. Open your terminal or command prompt and navigate to your website's directory. Run the following commands to commit your changes:
+- Use a free web-application like **stackedit.io**. This editor also has an user interface for the most commmen usage of Markdown, which will **speed-up** the process if you don't remember the syntax.  
 
 
-## Step 13: Enable GitHub Pages
+    | Program     | Description | Links |
+    | ----------- | ----------- | ---------- |
+    | VSCode      | From laptop | [VSCode][vsc] |
+    | VSCode      | Github Codepace | [Codepspace][codespace] |
+    | StackEdit   | Markdown editor | [StackEdit][stackedit] |     
 
-Finally, enable GitHub Pages for your repository. Go to your repository's settings page and select the `Pages` tab. Choose the `main` branch as the source for your site, and select the theme you want to use. Your website should now be live at `https://username.github.io/`.
 
-That's it! You've now created a static website with GitHub Pages and Jekyll. You can continue to customize your site by adding new pages
 
-Commit your changes to GitHub. Open your terminal or command prompt and navigate to your website's directory. Run the following commands to commit your changes:
+
+<!-- Links -->
+[github]: https://www.github.com/join
+[vsc]: https://code.visualstudio.com/download
+[stackedit]: https://stackedit.io/
+[codespace]: https://github.com/codespaces/new
+[auto-open]: https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview
+[chat]: https://chat.openai.com/chat
+[markdown-syntax]: https://www.markdownguide.org/basic-syntax/
+[github-markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[markdownCC]: https://www.youtube.com/watch?v=HUBNt18RFbo&t=659s
+
+<br>
+
+---
+<br>
 
