@@ -92,16 +92,21 @@ Visit your website at "username.github.io" in your web browser to confirm that i
 
 ## How to add a custom theme  
 
-Choose a theme: Choose a theme that you like from the available GitHub Pages themes. You can find them at https://pages.github.com/themes/.
+1. Choose a theme: Choose a theme that you like from the available GitHub Pages themes. You can find them at https://pages.github.com/themes/.
 
-Create a new file: In the root directory of your repository, create a new file named _config.yml. This file will contain your configuration settings for your website.
+2. Create a new file: In the root directory of your repository, create a new file named **_config.yml**. This file will contain your configuration settings for your website.
 
-Add theme information: In the _config.yml file, add the following code to specify the theme you want to use:
-
+3. Add theme information: In the _config.yml file, add the following code to specify the theme you want to use:
+```
 theme: <theme name>
-Replace theme name with the name of the theme you want to use. For example, if you want to use the "Cayman" theme, edit your _config.yml like below.
+```
+4. Replace theme name with the name of the theme you want to use. For example, if you want to use the "Cayman" theme, edit your _config.yml like below.
+```
 theme: jekyll-theme-cayman
-Commit changes: Commit and push the _config.yml file to your repository.
+```
+
+5. Commit changes: Commit and push the _config.yml file to your repository.  
+
 <br>
 
 ---
