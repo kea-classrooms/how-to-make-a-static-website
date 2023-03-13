@@ -34,6 +34,7 @@ Btw this whole page was created in **Markdown** 😉
 
 
   ![create-new-file](create-new-file.png)
+  
   ![index](index.png)
 
 5. Once your file is uptodate, scroll down to the bottom of the page and click on the "Commit changes" button.
